@@ -1,0 +1,112 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+img {
+    max-width: 300px;
+    max-height: 300px;
+    transition: transform 0.1s linear;
+}
+
+/* https://jajaaan.co.jp/css/button/ */
+.btn,
+a.btn,
+button.btn {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+
+/* button */
+.buttons {
+    margin-top: 20px;
+}
+
+/* ボタンのスタイル */
+.btn--orange,
+a.btn--orange {
+    color: #fff;
+    background-color: #eb6100;
+    padding: 15px 30px;
+    font-size: 1.8em;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+    border-radius: 8px;
+    transition: background 0.3s;
+}
+
+.btn--orange:hover,
+a.btn--orange:hover {
+    color: #fff;
+    background: #f56500;
+}
+
+.btn--red,
+a.btn--red {
+    color: #fff;
+    background-color: #f50000;
+    padding: 15px 30px;
+    font-size: 1.8em;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+    border-radius: 8px;
+    transition: background 0.3s;
+}
+
+.btn--red,
+a.btn--red:hover {
+    color: #fff;
+    background: #f50000;
+
+}
+
+.btn--blue,
+a.btn--blue {
+    color: #fff;
+    background-color: #008ff5;
+    padding: 15px 30px;
+    font-size: 1.8em;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+    border-radius: 8px;
+    transition: background 0.3s;
+}
+
+.btn--blue:hover,
+a.btn--blue:hover {
+    color: #fff;
+    background: #008ff5;
+}

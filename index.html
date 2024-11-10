@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>画像回転アプリ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>画像回転</h1>
+    <input type="file" id="fileInput" accept="image/*">
+    <div id="imageContainer"></div>
+
+    <div class="buttons">
+        <button class="btn--orange" onclick="rotateLeft()">左回し</button>
+        <button class="btn--red" onclick="decreaseSpeed()">速度低下</button>
+        <button class="btn--blue" onclick="increaseSpeed()">速度増加</button>
+        <button class="btn--orange" onclick="rotateRight()">右回し</button>
+    </div>
+    <p style="font-size: 30px;">速度: <span id="speed">0</span></p>
+    <script src="script.js"></script>
+</body>
+</html>
